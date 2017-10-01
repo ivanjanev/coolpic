@@ -1,0 +1,104 @@
+html {
+	height: 100%;
+}
+body {
+	min-height: 100%;
+	background: #ddeaff;
+}
+
+#imgPreview {
+    max-width:100%;
+    max-height: 300px;
+}
+
+.uploadDiv {
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+input[type=file] {
+    margin: 0 auto;
+}
+
+.filter > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.filter > input + img{ /* IMAGE STYLES */
+  cursor:pointer;
+  border:2px solid transparent;
+  border-radius: 20px;
+}
+.filter > input:checked + img{ /* (RADIO CHECKED) IMAGE STYLES */
+  border: 2px solid #0A9AC9;
+}
+
+.filter > img{
+	height: 100px;
+}
+
+.no_img_error{
+	background: #ffffff;
+	line-height: 100px;
+}
+
+.upload_placeholder{
+	height: 100px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.upload_placeholder:hover{
+	cursor: pointer;
+	height: 106px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.image-upload > input, #submit_filter{
+    display: none;
+}
+
+#downloadBtn{
+	padding: 10px 20px;
+	background: #0A9AC9 !important;
+	border-color: #0A9AC9 !important;
+	margin-bottom: 50px;
+}
+
+#downloadBtn:hover{
+	background: #337ab7 !important;
+}
+
+.previewDiv{
+	margin-bottom: 30px;
+}
+
+.color_div{
+	cursor: pointer;
+}
+
+.titleDiv img {
+	width: 350px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
